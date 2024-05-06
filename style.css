@@ -1,0 +1,132 @@
+import url('https://fonts.googleapis.com/css2family=Barrio&family=Lato:wght@300;700&display=swap');
+
+body { /* CSS for body HTML */
+	font-family: 'lato', sans-serif;
+	margin: 0;
+}
+
+/* End Body Section */
+
+header { /* CSS for Header section */
+	display: fixed;
+}
+
+.header-logo {
+	margin: 0 auto;
+	display: block;
+}
+/* End Header Section */
+
+/* CSS for Nav */
+.nav { 
+  background-color: #333;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  color: #f2f2f2;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a:active {
+  background-color: white;
+  color: black;
+}
+/* End Nav Section */
+ 
+main { /* CSS for the main HTML section */
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.home-row {
+	margin: 0 auto;
+}
+
+/* End Main Section */
+
+h1 { /* CSS for h1 */
+	font-family: 'lato', sans-serif;
+	text-align: center;
+	font-size: 4em;
+	color: #176c0f;
+}
+
+h2 { /* CSS for h2 */
+	font-family: 'lato', sans-serif;
+	color: black;
+}
+
+footer { /* CSS section for the footer */
+	text-align: center;
+	background-color: #333;
+}
+
+footer a {
+	text-decoration: none;
+	color: grey; 
+	text-align: center;
+}
+
+footer a: hover {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-thefiendof {
+	display: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.footer .fa {
+	
+}
+
+.footer1000 {
+	max-width: 1000px;
+	text-align: center;
+	padding: 10px;
+	align-items: center;
+}
+
+.social-row {
+	color: white;
+}
+
+.contact-row {
+	color: white;
+}
+
+.footer-bottom {
+	color: white;
+	background: black;
+}
+/* End Footer Section */
+
+
+/* CSS without a media query--applies to all sizes unless overridden */
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 769px) {
+	h1 {
+		font-size: 1.5em;
+	}
+}
