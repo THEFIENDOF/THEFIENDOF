@@ -1,0 +1,44 @@
+html, body {
+	background-color: black;
+	height: 100%;
+}
+
+.gate {
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
+
+.gate h1 {
+	font-size: 2em;
+	font-weight: bold;
+	border-left: 0px solid black;
+  	padding: 10px;
+  	margin: 0 auto;
+  	display: inline-block;
+  	top: 50%;
+  	left: 50%;
+  	position: absolute;
+  	transform: translate(-50%, -50%);
+}
+
+.gate p {
+	font-size: 1.5em;
+	color: grey;
+  	display: inline-block;
+  	top: 55%;
+	left: 47%;
+  	position: absolute;
+  	transform: translate(-50%, -50%);
+}
+
+.gate a {
+	color: white;
+	text-decoration: none;
+}
+
+.gate a:hover {
+	background-color: white;
+	color: black;
+}
+
